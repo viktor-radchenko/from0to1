@@ -70,6 +70,28 @@ body {
   padding: 0 10px;
 }
 
+.title {
+  align-self: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -1.65px;
+  color: #242121;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: #FCBB08;
+  left: 0;
+  bottom: 0;
+}
+
 .header__top-inner {
   padding-bottom: 29px;
   display: flex;
@@ -142,3 +164,24 @@ body {
 .header__scroll-icon {
   margin-bottom: 62px;
 }
+
+.about {
+  background-color: #F6F8FA;
+  padding: 150px 0 144px;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-size: 40px;
+}
+
+.about__text p {
+  max-width: 770px;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
