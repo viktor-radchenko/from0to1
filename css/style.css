@@ -283,3 +283,117 @@ body {
 .expertise__item-text {
   color: #777;
 }
+
+.magic {
+  background-color: #F6F8FA;
+  background-image: url('../images/magic_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left 87%;
+}
+
+.magic__inner {
+  max-width: 470px;
+  margin-left: auto;
+  padding: 100px 0 215px;
+}
+
+.magic__title {
+  margin-bottom: 67px;
+}
+
+.magic__text p {
+  margin-bottom: 25px;
+}
+
+.portfolio {
+  padding: 140px 0 165px;
+}
+
+.portfolio__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+
+.portfolio__content {
+  column-count: 4;
+  column-gap: 22px;
+}
+
+.portfolio__item img {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.portfolio__add {
+  display: block;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1.2px;
+  color: #242121;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 42px 15px 41px;
+  background-color: #f6f8fa;
+  margin-bottom: 130px;
+}
+
+.blockquote {
+  max-width: 650px;
+  margin: 0 auto 148px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 36px;
+  color: #242121;
+}
+
+.blockquote__author {
+  margin-top: 50px;
+  display: block;
+  font-size: 14px;
+  line-height: 32px;
+  color: #9E9E9E;
+}
+
+.portfolio__video {
+  background-image: url('../images/portfolio_video_bg.jpg');
+  height: 325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 165px;
+}
+
+.portfolio__numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio__numbers-item {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px;
+  margin-bottom: 9px;
+}
+
+.portfolio__numbers-item span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
